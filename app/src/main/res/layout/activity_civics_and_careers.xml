@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rr.aphsstudentguide.CivicsAndCareers"
+    android:background="#001E7A">
+
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        android:id="@+id/scroll2"
+        android:scrollbarThumbVertical="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/imageView4"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/careers"
+            android:onClick="Pic1onClick" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Career Studies"
+            android:id="@+id/textView"
+            android:layout_marginTop="25dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Teacher: Mr. Mcvanel"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Email: mcvanelvinm@hdsb.ca"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Office Hours: Periods 2 and 4"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Location: Business Office Room 2C"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView3"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/down" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Unit 1 - Assessing Myself"
+            android:layout_marginTop="150dp"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:id="@+id/imageView5"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/pro1"
+            android:onClick="Pic2onClick" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- In this activity you will be writing about your hobbies, interest, values and skills. This info will be important in writing your resume."
+            android:id="@+id/textView7"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Next you will try to find Who you are by filling sheets to find if you are a Hands-on, people or information person."
+            android:id="@+id/textView8"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- In this section you fill be finding your values including moraland Intrinsic values."
+            android:id="@+id/textView9"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Skills is the ability to do something well including Essential Skills, Technical Skills andEmployable skills."
+            android:id="@+id/textView10"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="- (October Sky) John Hickam (Chris Cooper) is a West Virginia coal miner who loves his job and expects his sons, Jim (Scott Miles) and Homer (Jake Gyllenhaal), to follow in his footsteps. But Jim gets a football scholarship, and Homer becomes interested in rocket science after seeing Sputnik 1 crossing the sky. Joh..."
+        android:id="@+id/textView11"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+        android:textColor="#ffffff"/>
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToSo"
+            android:background="#ffffff"
+            android:id="@+id/textView12"
+            android:layout_marginTop="10dp"
+            android:layout_margin="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="More"
+            android:textColor="#001E7A"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Unit 2 - Exploring the World of Work"
+            android:layout_marginTop="75dp"
+            android:id="@+id/textView13"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- One of the first activitys in the new unit is to Career Cruising on..."
+            android:id="@+id/textView14"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToSo2"
+            android:background="#ffffff"
+            android:id="@+id/textView15"
+            android:layout_marginTop="10dp"
+            android:layout_margin="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="CareerCruising.com"
+            android:textColor="#001E7A"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Next you will be learning how to build a Resume here's a great wedsite..."
+            android:id="@+id/textView16"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToSo3"
+            android:background="#ffffff"
+            android:id="@+id/textView17"
+            android:layout_marginTop="10dp"
+            android:layout_margin="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="LiveCareer.com"
+            android:textColor="#001E7A"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Fill Application is your first introduction to the company make sure its a good one. Here is a Mcdonald's Application"
+            android:id="@+id/textView19"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:layout_width="182dp"
+            android:layout_height="268dp"
+            android:id="@+id/imageView7"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/application"
+            android:onClick="Pic3onClick" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- (Pursuit Of Happiness) Life is a struggle for single father Chris Gardner (Will Smith). Evicted from their apartment, he and his young son (Jaden Christopher Syre Smith) find themselves alone with no place to go. Even though Chris eventually lands a job as an intern at a prestigious brokerage firm, the position pays no mo…"
+            android:id="@+id/textView20"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToSo4"
+            android:background="#ffffff"
+            android:id="@+id/textView21"
+            android:layout_marginTop="10dp"
+            android:layout_margin="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="More"
+            android:textColor="#001E7A"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Next you will be learning about job trends including Demographics, Technology, Workforce, Globalization, and Information"
+            android:id="@+id/textView22"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Learning about different Univercity, Collage, and Apprenticceship opporutites. "
+            android:id="@+id/textView23"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Unit 3 - Marketing MySelf"
+            android:layout_marginTop="75dp"
+            android:id="@+id/textView24"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- In the first section you will be learning about networking and finding the hidden jod market throught your net works"
+            android:id="@+id/textView25"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Next you will be learning how to create a coverletter, referance letter and a mock interview."
+            android:id="@+id/textView26"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:layout_width="182dp"
+            android:layout_height="268dp"
+            android:id="@+id/imageView9"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/cover"
+            android:onClick="Pic4onClick" />
+
+        <ImageView
+            android:layout_width="182dp"
+            android:layout_height="268dp"
+            android:id="@+id/imageView10"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/refer" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageView11"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/interview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- The final task is to apply to your dream job give a resume, coverletter, referance letter and create a mock interview."
+            android:id="@+id/textView32"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/imageView12"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/par" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Civics Course"
+            android:id="@+id/textView27"
+            android:layout_marginTop="25dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Teacher: Ms. Donaldson"
+            android:id="@+id/textView28"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Email: donaldsonl@hdsb.ca"
+            android:id="@+id/textView29"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Office Hours: After school, Period 3 or 4"
+            android:id="@+id/textView30"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Location: English Office 2B"
+            android:id="@+id/textView31"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Google Classroom Code: 16t2chv"
+            android:id="@+id/textView34"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Unit 1 - Democracy Issues And Ideas"
+            android:layout_marginTop="150dp"
+            android:id="@+id/textView33"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="150dp"
+            android:id="@+id/imageView13"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/dev" />
+
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView14"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/up"
+            android:onClick="scrollOnClick2"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+</LinearLayout>
